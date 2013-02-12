@@ -1,3 +1,9 @@
 #! /usr/bin/env ruby
 
+require 'rubygems'
+require 'yaml'
+
+ENV['BUNDLE_GEMFILE'] = ''
+require File.expand_path('../../config/environment.rb', __FILE__)
+
 $stderr.puts 'TEST APP'
